@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Produtos | Minha Loja</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff5f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #d96c91;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        h2 {
+            color: #b3446c;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            margin-top: 25px;
+        }
+
+        th, td {
+            border: 1px solid #e6b6c5;
+            padding: 14px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #d96c91;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff0f4;
+        }
+
+        .imagens {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .imagens img {
+            width: 280px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .voltar {
+            display: block;
+            width: fit-content;
+            margin: 30px auto;
+            padding: 12px 25px;
+            background-color: #d96c91;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .voltar:hover {
+            background-color: #b3446c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nossa Coleção</h1>
+        <p>Confira os produtos disponíveis em nossa loja!</p>
+    </header>
+
+    <main>
+
+        <h2>Lista de Produtos</h2>
+
+        <table>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Preço</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Camiseta básica</td>
+                <td>Blusas</td>
+                <td>R$ 49,90</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Calça jeans</td>
+                <td>Calças</td>
+                <td>R$ 119,90</td>
+            </tr>
+
+            <tr>
+                <td>003</td>
+                <td>Vestido floral</td>
+                <td>Vestidos</td>
+                <td>R$ 89,90</td>
+            </tr>
+
+            <tr>
+                <td>004</td>
+                <td>Jaqueta jeans</td>
+                <td>Jaquetas</td>
+                <td>R$ 159,90</td>
+            </tr>
+
+            <tr>
+                <td>005</td>
+                <td>Saia midi</td>
+                <td>Saias</td>
+                <td>R$ 79,90</td>
+            </tr>
+        </table>
+
+        <h2>Conheça nossos produtos</h2>
+
+        <div class="imagens">
+            <img
+                src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600"
+                alt="Roupas femininas em exposição">
+
+            <img
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600"
+                alt="Pessoa escolhendo roupas em uma loja">
+        </div>
+
+        <a href="intex.html" class="voltar">
+            ← Voltar para a página inicial
+        </a>
+
+    </main>
+
+</body>
+</html>

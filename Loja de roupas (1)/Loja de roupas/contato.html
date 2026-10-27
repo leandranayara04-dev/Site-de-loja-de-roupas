@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body{
+            background-color: rgb(201, 83, 128);
+            color: rgb(44, 44, 49);
+            font-family: cursive;
+        }
+
+        header {
+            background-color: #d96c91;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        main {
+            max-width: 650px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #e8c5d0;
+        }
+
+        h2 {
+            color: #b3446c;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 11px;
+            border: 1px solid #d9a5b7;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        .termos {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+        }
+
+        .termos input {
+            width: auto;
+        }
+
+        .termos label {
+            margin: 0;
+            font-weight: normal;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 22px;
+            padding: 13px;
+            background-color: #d96c91;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #b3446c;
+        }
+
+        .voltar {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #b3446c;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contato</h1>
+    <p>Telefone:31991926565</p>
+    <p>E-mail:beautifulfashion@gmail.com</p>
+
+    
+
+    <table>
+        <br><br>
+        <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome"
+            placeholder="Digite seu nome" required>
+            <br><br>
+            <label for="telefone">Telefone</label>
+            <input type="number" name="telefone" id="telefone"
+            placeholder="Digite seu telefone" required>
+            <br><br>
+            <label for="E-mail">E-mail</label>
+            <input type="text" name="E-mail" id="E-mail"
+            placeholder="Digite seu E-mail" required>
+
+<label for="produto">Serviço ou produto de interesse:</label>
+            <select id="produto" name="produto">
+                <option value="">Selecione uma opção</option>
+                <option value="camiseta">Camiseta básica</option>
+                <option value="calca">Calça jeans</option>
+                <option value="vestido">Vestido floral</option>
+                <option value="jaqueta">Jaqueta jeans</option>
+                <option value="saia">Saia midi</option>
+                <option value="outro">Outro produto</option>
+            </select>
+<label for="data">Data desejada para atendimento:</label>
+            <input
+                type="date"
+                id="data"
+                name="data">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="5"
+                placeholder="Escreva sua mensagem..."
+                required></textarea>
+
+            <div class="termos">
+                <input
+                    type="checkbox"
+                    id="termos"
+                    name="termos">
+
+                <label for="termos">
+                    Aceito os termos de atendimento.
+                </label>
+            </div>
+
+            <button type="submit">Enviar mensagem</button>
+
+        </form>
+
+        <a href="intex.html" class="voltar">
+            ← Voltar para a página inicial
+        </a>
+
+
+        </form>
+        
+    </table>
+    
+</body>
+</html>
